@@ -18,4 +18,4 @@ Optimizing work package schemes is challenging under uncertain task duration. Th
 1. For detailed principles and explanations of TLGA, please refer to “Zhang, Y., Li, X., Teng, Y., Bai, S., & Chen, Z. (2024). Two-list genetic algorithm for optimizing work package schemes to minimize project costs. Automation in Construction, 165, 105595.”
 2. To reference and use this code, please cite “Zhang, Y., Li, X., Teng, Y., Bai, S., & Chen, Z. (2024). Two-list genetic algorithm for optimizing work package schemes to minimize project costs. Automation in Construction, 165, 105595.”
 3. For reference and use of the initial model for the work package sizing problem, please cite “Li, C. L., & Hall, N. G. (2019). Work package sizing and project performance. Operations Research, 67(1), 123-142.”.
-4. If you have any other questions about data and codes, please email “ya-ning.zhang@connect.polyu.hk”.
+4. If you have any other questions about data and codes, please email “yawningzhang@gmail.com”.
