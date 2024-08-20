@@ -38,17 +38,3 @@ def compute_ave_std(lst):
     return mean, std
 
         
-if __name__ == '__main__':
-    result = open('D:\\Documents\\python_work\\PSP_Code\\workpackage\\results\\tasknum\\sj160.txt','w')
-    path = r"D:\\Documents\\python_work\\PSP_Code\\workpackage\\org_wpcode\\sj160"
-    files = os.listdir(path)
-    for i in range(0, len(files)):
-        ad = path +'\\' + files[i]
-        print(files[i])
-        result.write("{}".format(files[i])+'\n')
-        org_code = np.loadtxt(ad)
-        for i in org_code:
-            wp_code = i.reshape(2,-1)
-            task_num = com_tasknuminwp(wp_code)
-            meantasknum, stdtasknum = compute_ave_std(task_num)
-            result.write(str(task_num)+'_'+str(meantasknum)+'_'+str(stdtasknum)+'\n')
